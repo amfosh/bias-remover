@@ -6,11 +6,12 @@ import { About } from './About';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout'
 import { NavigationBar } from './components/NavigationBar'
+import './index.css'
 
 class App extends Component {
   render () {
     return (
-      <React.Fragment>
+      <React.Fragment >
         <NavigationBar/>
         <Layout>
           <Router>

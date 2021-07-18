@@ -1,6 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Input } from './components/Input';
+import './index.css'
+
 export const Home = () => (
     <div>
 
